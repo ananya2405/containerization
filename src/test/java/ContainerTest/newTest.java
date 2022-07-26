@@ -10,6 +10,7 @@ public class newTest {
 	@Test
 	public void test1(){
 		//Create a WebDriver instance, named driver, with the FirefoxDriver().
+	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//Drivers//chromedriver.exe");	
         WebDriver driver = new FirefoxDriver();
         driver.get("https://www.training-support.net");
 
